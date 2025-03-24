@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom"
+
 function NavBar() {
     return <nav className="nav">
-        <a>
+        <Link to="/">
             <img className= "icon" src={'/libfull.png'} width='60px' height='30px'/>
             <p className="titleText">Colonization and Liberia</p>
-
-        </a>
+        </Link>
         <p className="signature">Warren Hayman</p>
     </nav>    
 }
