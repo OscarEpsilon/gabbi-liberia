@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css'
 import Home from './Home.jsx'
 import History from './History.jsx'
+import FourOhFour from './FourOhFour.jsx';
 
 export default function App() {
 
@@ -15,7 +16,9 @@ export default function App() {
         <Route path="/section1" element={<nav />} />
         <Route path="/section2" element={<nav />} />
         <Route path="/section3" element={<nav />} />
-        <Route path="*" element={<nav />} />
+        <Route path="/landing" element={<nav />} />
+        <Route path="/sources" element={<nav />} />
+        <Route path="*" element={<FourOhFour />} />
       </Routes>
     </BrowserRouter>
   );
