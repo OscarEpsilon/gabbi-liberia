@@ -26,6 +26,8 @@ h1 {
 p {
   margin: 0;
   margin-bottom: 20px;
+  text-align: justify;
+  text-align-last: center;
 }
 
 button {
@@ -42,7 +44,7 @@ button {
   margin: 13px
 }
 button:hover {
-  border-color: #ff6464;
+  border-color: #6476ff;
 }
 button:focus,
 button:focus-visible {
@@ -83,32 +85,12 @@ path:hover {
   margin: 15px;
 }
 
-#South_Africa {
-  fill: rgb(140, 255, 100)
-}
-
 #Liberia {
-  fill: rgb(255, 100, 100)
+  fill: rgb(180, 200, 110)
 }
 
-#Central_African_Republic {
-  fill: rgb(100, 120, 255)
-}
-
-#Nigeria {
-  fill: rgb(255, 255, 100)
-}
-
-#Egypt {
-  fill: rgb(190, 120, 210)
-}
-
-#Tanzania {
-  fill: rgb(255, 150, 100)
-}
-
-#Mauritania {
-  fill: rgb(100, 180, 180)
+#Liberia:hover {
+  fill: rgb(255,210,100)
 }
 
 .quiz {
@@ -121,6 +103,10 @@ path:hover {
   padding: 9px;
   border: 2px solid;
   border-color: rgb(0, 0, 0);
+}
+
+.signature {
+  margin: 0px;
 }
 
 .content {
@@ -150,6 +136,7 @@ path:hover {
 .titleText {
   font-weight: 700;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 a {
@@ -160,4 +147,9 @@ a {
 .quizq {
   margin: 15px;
   font-weight: 500;
+}
+
+.caption {
+  font-size: small;
+  font-style: italic;
 }
