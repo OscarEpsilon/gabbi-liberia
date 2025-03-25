@@ -3,7 +3,6 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1;
   font-weight: 400;
-
   color: rgba(0, 0, 0, 0.87);
   background-color: #999999;
 
@@ -26,6 +25,7 @@ h1 {
 
 p {
   margin: 0;
+  margin-bottom: 20px;
 }
 
 button {
@@ -76,10 +76,39 @@ path:hover {
   margin: 0 auto;
   text-align: center;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #wrapper {
   margin: 15px;
+}
+
+#South_Africa {
+  fill: rgb(140, 255, 100)
+}
+
+#Liberia {
+  fill: rgb(255, 100, 100)
+}
+
+#Central_African_Republic {
+  fill: rgb(100, 120, 255)
+}
+
+#Nigeria {
+  fill: rgb(255, 255, 100)
+}
+
+#Egypt {
+  fill: rgb(190, 120, 210)
+}
+
+#Tanzania {
+  fill: rgb(255, 150, 100)
+}
+
+#Mauritania {
+  fill: rgb(100, 180, 180)
 }
 
 .quiz {
@@ -90,7 +119,8 @@ path:hover {
   margin-bottom: 8px;
   background-color: rgb(230 230 230);
   padding: 9px;
-  border-radius: 3px;
+  border: 2px solid;
+  border-color: rgb(0, 0, 0);
 }
 
 .content {
@@ -119,6 +149,7 @@ path:hover {
 
 .titleText {
   font-weight: 700;
+  margin-bottom: 0px;
 }
 
 a {
