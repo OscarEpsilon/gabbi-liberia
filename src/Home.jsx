@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import AfMap from './components/AfMap'
 import NavBar from './components/NavBar'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -17,6 +18,10 @@ const Home = () => {
         </p>
       </div>
       <AfMap />
+      <br />
+      <Link to="/sources">
+        <p className='sourcesLink'>(Click To See Sources)</p>
+      </Link>
     </>
   )
 }
