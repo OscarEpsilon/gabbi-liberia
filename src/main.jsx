@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css'
 import Home from './Home.jsx'
 import History from './History.jsx'
@@ -9,7 +9,7 @@ import FourOhFour from './FourOhFour.jsx';
 export default function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<Home />} />
         <Route path="/history" element={<History />} />
@@ -20,7 +20,7 @@ export default function App() {
         <Route path="/sources" element={<nav />} />
         <Route path="*" element={<FourOhFour />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
