@@ -9,7 +9,7 @@ import Sources from './Sources.jsx';
 import Landing from './Landing.jsx'
 import Race from './Race.jsx'
 import Econ from './Econ.jsx'
-import SecT from './SecT.jsx'
+import Politics from './Politics.jsx'
 
 export default function App() {
 
@@ -18,9 +18,9 @@ export default function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/history" element={<History />} />
-        <Route path="/race" element={<Race />} />
+        <Route path="/social" element={<Race />} />
         <Route path="/econ" element={<Econ />} />
-        <Route path="/sect" element={<SecT />} />
+        <Route path="/politics" element={<Politics />} />
         <Route path="/landing" element={<Landing />} />
         <Route path="/sources" element={<Sources />} />
         <Route path="*" element={<FourOhFour />} />

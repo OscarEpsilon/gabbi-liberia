@@ -31,6 +31,9 @@ const Sources = () => {
         <p className='citation'>
           Moran, Mary H. Liberia: The violence of democracy. Philadelphia, Pennsylvania: University of Pennsylvania Press, 2013.
         </p>
+        <p className='citation'>
+          Map design credit: https://www.mapchart.net/africa.html
+        </p>
       </div>
     </>
   )
