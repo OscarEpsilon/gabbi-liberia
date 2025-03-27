@@ -6,16 +6,20 @@ const Politics = () => {
   return (
     <>
       <NavBar />
-      <h1>Liberia &mdash; America's Unique African Colony</h1>
+      <h1>Political Colonial Legacies</h1>
       <div className="content">
         <p>
-          Politics Page
+          Liberia was designed and modelled to be an American-style democracy. However, its imposition on native systems of governance disrupted previously established political systems and replaced them with oppression.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Info about Liberia!
+          In 1877, only a few decades after Liberian independence, the political system had already degraded into what was essentially a one-party state: the True Whig Party seized control of government and though increasingly corrupt and rigged elections, remained in power until the complete collapse of the democratic system. Through this period, the executive branch gained increasing power, and checks and balances, while present, were slowly stripped away as the need for the Americo-Liberian TWP to remain in power demanded more and more reductions in fair and legitimate democratic governance.
+        </p>
+        <img src={"./Will.jpg"} width="95%" />
+        <p className="caption">
+          William Tolbert, the last president of Liberia before the civil wars
         </p>
         <p>
-          To begin, click on Liberia on the map below.
+          As elections became less free and fair, and the power of the Liberian government over the native population grew, the Liberian state transformed from a democratic institution into what was effectively a colonial one. Ultimately, it was the failure of this governance that led to the decades of bloody strife in Liberia, which is the political legacy of these colonial political tendencies.
         </p>
       </div>
       <Link to="/landing">
