@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <>
       <NavBar />
-      <h1>Landing Page</h1>
+      <h1>End Page</h1>
       <div className="content">
         <p>
           Now that you've finished reading about your topic, wait for a moment for others to finish. While you're waiting, feel free to test your knowlege of African geography with <a className='hyperlink' href="https://faculty.humanities.uci.edu/mitchell/africastudymap.html" target="_blank">this quiz.</a>

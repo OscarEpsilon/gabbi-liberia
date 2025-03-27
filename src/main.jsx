@@ -7,6 +7,9 @@ import History from './History.jsx'
 import FourOhFour from './FourOhFour.jsx';
 import Sources from './Sources.jsx';
 import Landing from './Landing.jsx'
+import Race from './Race.jsx'
+import Econ from './Econ.jsx'
+import SecT from './SecT.jsx'
 
 export default function App() {
 
@@ -15,9 +18,9 @@ export default function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/history" element={<History />} />
-        <Route path="/section1" element={<nav />} />
-        <Route path="/section2" element={<nav />} />
-        <Route path="/section3" element={<nav />} />
+        <Route path="/race" element={<Race />} />
+        <Route path="/econ" element={<Econ />} />
+        <Route path="/sect" element={<SecT />} />
         <Route path="/landing" element={<Landing />} />
         <Route path="/sources" element={<Sources />} />
         <Route path="*" element={<FourOhFour />} />
