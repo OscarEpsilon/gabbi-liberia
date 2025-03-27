@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import AfMap from './components/AfMap'
 import NavBar from './components/NavBar'
 import { Link } from 'react-router-dom'

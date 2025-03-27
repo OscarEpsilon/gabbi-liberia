@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import NavBar from './components/NavBar'
+import { Link } from 'react-router-dom'
 
 const History = () => {
 
@@ -9,7 +9,7 @@ const History = () => {
       <h1>Liberia &mdash; A Brief History</h1>
       <div className="content">
         <p>
-          Though most historical accounts of the area that came to be known as Liberia tend to begin in 1822, the region had been inhabited by indigenous african peoples since 
+          Though most historical accounts of the area that came to be known as Liberia tend to begin in 1822, the region had been inhabited by indigenous african peoples since
         </p>
         <img src={"./libfull.png"} width="95%" />
         <p className="caption">
@@ -37,6 +37,18 @@ const History = () => {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Info about Liberia!
         </p>
+        <div className="quiz">
+        <p className="direction">WAIT HERE FOR FURTHER DIRECTION. DO NOT EXPLORE THE LINKS BELOW YET.</p>
+        <Link to="/econ">
+          <p className='sourcesLink'>[Topic 1: Economics]</p>
+        </Link>
+        <Link to="/race">
+          <p className='sourcesLink'>[Topic 2: Race]</p>
+        </Link>
+        <Link to="/sect">
+          <p className='sourcesLink'>[Topic 3: IDK]</p>
+        </Link>
+        </div>
       </div>
     </>
   )
